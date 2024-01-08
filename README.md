@@ -7,7 +7,5 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
-
-# About Laravel
+## Base de datos
 ![image](https://github.com/BryanTnz/demo/assets/66330281/ab31725a-dbc7-4d1d-b4b8-5d028ff095a8)
