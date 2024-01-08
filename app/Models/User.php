@@ -48,8 +48,6 @@ class User extends Authenticatable
     }
 
 
-
-    
     protected $fillable = [
         'name',
         'email',
@@ -69,5 +67,12 @@ class User extends Authenticatable
     ];
 
 
+    // Obtener el nombre completo del usuario
+    public function getFullName()
+    {
+        return "$this->first_name $this->last_name";
+    }
+    
+    
     
 }
