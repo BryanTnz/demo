@@ -7,60 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Login
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+{ "email":"gerry66@example.com", "password":"Secret123*" }<br>
+http://127.0.0.1:8000/api/login
+![image](https://github.com/BryanTnz/demo/assets/66330281/1ed83393-cfbd-4c5f-b22a-51bf4fc4330a)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Logout
+http://127.0.0.1:8000/api/logout
+![image](https://github.com/BryanTnz/demo/assets/66330281/351b7d1e-b049-4966-97c9-1ccd2c272bbe)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## ForgotPassword
 
-## Learning Laravel
+## ResetPassword
+{ 
+    "token":"e0e47ec6e61868a0496a56a602202ab836d68242d31df47a420bb7ebbaf5f8b1",
+    "email":"gerry66@example.com",
+    "password":"Secret123*",
+    "password_confirmation":"Secret123*"
+}<br>
+http://127.0.0.1:8000/api/reset-password
+![image](https://github.com/BryanTnz/demo/assets/66330281/4ea81b07-7e8c-40d5-ba6c-598b6a1d63d5)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## UpdatePassword
+{ 
+    
+    "password":"Secret1234*",
+    "password_confirmation":"Secret1234*"
+}<br>
+http://127.0.0.1:8000/api/update-password
+![image](https://github.com/BryanTnz/demo/assets/66330281/25f2ddb0-d92c-4fbc-9a80-0848de70a672)
+![image](https://github.com/BryanTnz/demo/assets/66330281/b7347700-1e9a-4aa6-8db8-46f362c793d5)
