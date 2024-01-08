@@ -18,6 +18,13 @@ http://127.0.0.1:8000/api/logout
 ![image](https://github.com/BryanTnz/demo/assets/66330281/351b7d1e-b049-4966-97c9-1ccd2c272bbe)
 
 ## ForgotPassword
+{ 
+    
+    "email":"elfrieda17@example.com"
+  
+}<br>
+![image](https://github.com/BryanTnz/demo/assets/66330281/3fffec20-4ccb-409c-9b7c-d11b840dd6c9)
+
 
 ## ResetPassword
 { 
@@ -27,6 +34,10 @@ http://127.0.0.1:8000/api/logout
     "password_confirmation":"Secret123*"
 }<br>
 http://127.0.0.1:8000/api/reset-password
+![image](https://github.com/BryanTnz/demo/assets/66330281/d3d39ffd-8fcf-4718-902c-cf9ef2125390)
+
+![image](https://github.com/BryanTnz/demo/assets/66330281/f774badf-4a42-41bd-86bc-92079d50d374)
+
 ![image](https://github.com/BryanTnz/demo/assets/66330281/4ea81b07-7e8c-40d5-ba6c-598b6a1d63d5)
 
 ## UpdatePassword
