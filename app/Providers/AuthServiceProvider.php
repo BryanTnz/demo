@@ -9,9 +9,15 @@ use App\Models\User;
 class AuthServiceProvider extends ServiceProvider
 {
     
+
+    // Registrar Policies
+    // https://laravel.com/docs/9.x/authorization#registering-policies
     protected $policies = [
-        //
+        Report::class => ReportPolicy::class,
     ];
+    
+    
+    
 
     // Gate
     public function boot(): void
