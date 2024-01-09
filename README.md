@@ -28,3 +28,15 @@ http://127.0.0.1:8000/api/v1/report/14/update<br>
 Solo puede el guardia puede hacer reportes <br>
 http://127.0.0.1:8000/api/v1/report/14<br>
 ![image](https://github.com/BryanTnz/demo/assets/66330281/8a28fa1d-06d8-4705-a35b-acf7bb656696)
+
+## Destroy
+Solo puede el guardia puede hacer reportes <br>
+http://127.0.0.1:8000/api/v1/report/15/destroy<br>
+![image](https://github.com/BryanTnz/demo/assets/66330281/ebe61d0a-3f80-41a7-bbe1-2b5b4147c901)
+
+## Policies (politicas)
+Intento consultar un reporte con el usuario de rol "DIRECTOR" (no me deberia dejar)
+![image](https://github.com/BryanTnz/demo/assets/66330281/14016a2c-5eb1-4fe6-b053-114878245e65)
+
+
+
