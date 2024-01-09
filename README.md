@@ -7,60 +7,114 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## CRUD PABELLON
+## Index 
+Solo puede el director crear carceles y pabellones <br>
+http://127.0.0.1:8000/api/v1/ward<br>
+![image](https://github.com/BryanTnz/demo/assets/66330281/1c203ad5-e41c-4b0c-b12c-6355babd7113)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Store
+Solo puede el director crear carceles y pabellones <br>
+http://127.0.0.1:8000/api/v1/ward/create<br>
+{
+      "name": "Pabellon_demo",
+      "location": "Noreste",
+      "description": "Ullam tenetur error molestiae sunt et autem."} 
+![image](https://github.com/BryanTnz/demo/assets/66330281/9d21ef7a-1aea-488f-b328-f5680cc7e63b)
+![image](https://github.com/BryanTnz/demo/assets/66330281/e14ef536-8737-4c99-af07-81cdf2e1125b)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Update
+Solo puede el director crear carceles y pabellones <br>
+http://127.0.0.1:8000/api/v1/ward/7/update<br>
+{
+      "name": "Danyka Parkway",
+      "location": "Ala sur",
+      "description": "Ullam tenetur error molestiae sunt et autem."
+    }<br>
+![image](https://github.com/BryanTnz/demo/assets/66330281/d44bd9a2-1b9e-4972-8094-046a71265ca5)
+![image](https://github.com/BryanTnz/demo/assets/66330281/264b9552-aec5-4cc2-a0a6-a1c2d6c1a4ff)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Show
+Solo puede el director crear carceles y pabellones <br>
+http://127.0.0.1:8000/api/v1/ward/7<br>
+![image](https://github.com/BryanTnz/demo/assets/66330281/fc12cd6a-c47b-4086-b3c6-3ad40e0531ba)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Destroy
+Solo puede el director crear carceles y pabellones <br>
+http://127.0.0.1:8000/api/v1/ward/21/destroy<br>
+![image](https://github.com/BryanTnz/demo/assets/66330281/bcfd666c-146d-4d0f-8489-e0593c4ae61c)
 
-## Laravel Sponsors
+## CRUD CARCELES
+## Index 
+Solo puede el director crear carceles y pabellones <br>
+http://127.0.0.1:8000/api/v1/jail<br>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+![image](https://github.com/BryanTnz/demo/assets/66330281/9dc4e19f-2b21-4a17-9b81-e39ab9db32f2)
 
-### Premium Partners
+## Store
+Solo puede el director crear carceles y pabellones <br>
+http://127.0.0.1:8000/api/v1/jail/create<br>
+{
+      "name": "Carcel_Uno",
+      "code": "abc-15",
+      "type": "low",
+      "capacity": "5",
+      "ward_id": "21",
+      "description": "Ullam tenetur error molestiae sunt et autem."
+    }<br>
+![image](https://github.com/BryanTnz/demo/assets/66330281/c3cc8255-39ab-48ba-a8f6-1fb3d4b9827e)
+![image](https://github.com/BryanTnz/demo/assets/66330281/6f8bbd1d-3e1e-4f3f-9637-c4c6280ce0a0)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## Update
+Solo puede el director crear carceles y pabellones <br>
+http://127.0.0.1:8000/api/v1/jail/7/update<br>
+{
+      "name": "Ebba Drive_siete",
+      "code": "abc-17",
+      "type": "Medium",
+      "capacity": "5",
+      "ward_id": "3",
+      "description": "Ullam tenetur error molestiae sunt et autem."
+    }<br>
 
-## Contributing
+![image](https://github.com/BryanTnz/demo/assets/66330281/3ae93eea-13bc-44b3-b206-76c5055ea0b8)
+![image](https://github.com/BryanTnz/demo/assets/66330281/01a7f140-9a37-4c1e-9047-f40f1f4a6418)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Show
+Solo puede el director crear carceles y pabellones <br>
+http://127.0.0.1:8000/api/v1/jail/7<br>
+![image](https://github.com/BryanTnz/demo/assets/66330281/3bb45e34-77aa-4e53-8864-847f1c117072)
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Destroy
+Solo puede el director crear carceles y pabellones <br>
+http://127.0.0.1:8000/api/v1/jail/21/destroy<br>
+![image](https://github.com/BryanTnz/demo/assets/66330281/6f09a3bf-bdbb-46dc-bf3a-53fffecc00f0)
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## INDEX Asignacion guardias a pabellones
+Solo puede el director crear carceles y pabellones <br>
+http://127.0.0.1:8000/api/v1/assignment/guards-and-wards<br>
+![image](https://github.com/BryanTnz/demo/assets/66330281/27caa059-eb48-44a9-8b8a-be5bc18c6203)
 
-## License
+## Asignacion guardias a pabellones
+Solo puede el director crear carceles y pabellones <br>
+Indicar el numero del guardia y luego el numero de pabellon<br>
+http://127.0.0.1:8000/api/v1/assignment/guard-to-ward/11/3<br>
+![image](https://github.com/BryanTnz/demo/assets/66330281/80b8913d-3c53-49cf-8456-56070ba165f1)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## INDEX Asignacion prisionero a carcel
+Solo puede el director crear carceles y pabellones <br>
+http://127.0.0.1:8000/api/v1/assignment/prisoners-and-jails<br>
+![image](https://github.com/BryanTnz/demo/assets/66330281/956fa704-1c5e-40f0-86dd-59006b6a0d8e)
+
+
+## Asignacion prisioneros a cacel
+Solo puede el director crear carceles y pabellones <br>
+Indicar el numero del prisionero y luego el numero de la carcel<br>
+http://127.0.0.1:8000/api/v1/assignment/prisoner-to-jail/16/2<br>
+![image](https://github.com/BryanTnz/demo/assets/66330281/99a90b39-c279-40fd-bb32-4ecf5ea1de1c)
